@@ -7,7 +7,7 @@ permalink: /apps/truer-words/privacy/
 
 # Privacy Policy for TruerWords
 
-**Last Updated: December 28, 2024**
+**Last Updated: December 28, 2025**
 
 ## Introduction
 
