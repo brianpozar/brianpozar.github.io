@@ -1,5 +1,5 @@
 title: "Brian Pozar"
-description: "Personal site, projects, and writing by Brian Pozar."
+description: "CV, apps, and writing by Brian Pozar."
 url: "https://www.pozar.net"
 baseurl: ""
 
@@ -15,11 +15,13 @@ collections:
 nav:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Blog"
+  - title: "CV"
+    url: "/cv/"
+  - title: "Apps"
+    url: "/apps/"
+  - title: "Articles"
     url: "/blog/"
   - title: "Contact"
     url: "/contact/"
+
+headshot: "/assets/img/headshot.jpeg"

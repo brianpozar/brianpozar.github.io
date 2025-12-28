@@ -2,46 +2,63 @@
 layout: default
 ---
 <section class="hero">
-  <div class="hero-content">
-    <p class="hero-kicker">Hello, I’m</p>
-    <h1 class="hero-title">Brian Pozar</h1>
-    <p class="hero-subtitle">Building thoughtful software products and experiences.</p>
-    <div class="hero-actions">
-      <a class="btn primary" href="{{ "/projects/" | relative_url }}">View Projects</a>
-      <a class="btn secondary" href="{{ "/blog/" | relative_url }}">Read the Blog</a>
-      <a class="btn tertiary" href="{{ "/contact/" | relative_url }}">Get in Touch</a>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p class="hero-kicker">Hello, I’m</p>
+      <h1 class="hero-title">Brian Pozar</h1>
+      <p class="hero-subtitle">Technology and business leader with IT and supply chain roots, now embedded in Sales and focused on AI‑driven commercial and operational transformation.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="{{ "/cv/" | relative_url }}">View CV</a>
+        <a class="btn secondary" href="{{ "/apps/" | relative_url }}">See Apps</a>
+        <a class="btn tertiary" href="{{ "/blog/" | relative_url }}">Browse Articles</a>
+      </div>
     </div>
+    <div class="hero-photo">
+      <img src="{{ site.headshot | relative_url }}" alt="Headshot of Brian Pozar" />
+    </div>
+  </div>
+</section>
+
+<section class="section section-topics">
+  <div class="topics-strip">
+    <span class="topics-label">Topics</span>
+    <ul class="topics-list">
+      <li><span class="topic-pill">Life hacks</span></li>
+      <li><span class="topic-pill">Business</span></li>
+      <li><span class="topic-pill">Reviews</span></li>
+      <li><span class="topic-pill">Fitness</span></li>
+      <li><span class="topic-pill">Technology</span></li>
+    </ul>
   </div>
 </section>
 
 <section class="section section-featured-projects">
   <div class="section-header">
-    <h2>Selected Work</h2>
-    <p>A few things I’ve been working on recently.</p>
+    <h2>On this site</h2>
+    <p>What you’ll find here: a CV, a high-level overview of my apps, and writing on a mix of topics.</p>
   </div>
   <div class="card-grid">
-    <!-- Replace these with real projects later -->
     <article class="card">
-      <h3>Project One</h3>
-      <p>A concise description of a flagship project or product.</p>
-      <a href="{{ "/projects/" | relative_url }}" class="card-link">View details →</a>
+      <h3>CV</h3>
+      <p>A quick overview of my experience, skills, and what I like working on.</p>
+      <a href="{{ "/cv/" | relative_url }}" class="card-link">View CV →</a>
     </article>
     <article class="card">
-      <h3>Project Two</h3>
-      <p>Another highlight that demonstrates impact, craft, or complexity.</p>
-      <a href="{{ "/projects/" | relative_url }}" class="card-link">View details →</a>
+      <h3>Apps</h3>
+      <p>A high-level look at the apps I’ve shipped, without going deep into in-progress work.</p>
+      <a href="{{ "/apps/" | relative_url }}" class="card-link">See apps →</a>
     </article>
     <article class="card">
-      <h3>Project Three</h3>
-      <p>One more project that rounds out your areas of focus.</p>
-      <a href="{{ "/projects/" | relative_url }}" class="card-link">View details →</a>
+      <h3>Articles</h3>
+      <p>Writing on life hacks, business, reviews, fitness, technology, and anything else that seems useful.</p>
+      <a href="{{ "/blog/" | relative_url }}" class="card-link">Browse articles →</a>
     </article>
   </div>
 </section>
 
 <section class="section section-latest-posts">
   <div class="section-header">
-    <h2>Latest Writing</h2>
+    <h2>Latest Articles</h2>
   </div>
   <div class="card-list">
     {% assign recent_posts = site.posts | slice: 0, 3 %}
@@ -56,7 +73,7 @@ layout: default
         </article>
       {% endfor %}
     {% else %}
-      <p>No posts yet. Check back soon.</p>
+      <p>No articles yet. Check back soon.</p>
     {% endif %}
   </div>
 </section>

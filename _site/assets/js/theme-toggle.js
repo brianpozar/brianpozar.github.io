@@ -7,7 +7,8 @@
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       return 'dark';
     }
-    return 'light';
+    // Default to dark mode if no preference is stored
+    return 'dark';
   }
 
   function applyTheme(theme) {
@@ -21,7 +22,7 @@
   if (!toggle) return;
 
   toggle.addEventListener('click', function () {
-    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
     const next = current === 'light' ? 'dark' : 'light';
     applyTheme(next);
     window.localStorage.setItem(STORAGE_KEY, next);

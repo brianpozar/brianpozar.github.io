@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Projects
-subtitle: Selected work across apps, tools, and experiments.
-permalink: /projects/
+title: Apps
+subtitle: A high-level look at the apps I’ve shipped, without going into in-progress work.
+permalink: /apps/
 ---
 
-Use this page to feature the projects you’re most proud of. Each project can include a short description, your role, and links.
+Use this page to list the apps or products you’re comfortable sharing at a glance. Keep descriptions high-level rather than deep dives into specific projects.
 
-### Project One
+### App One
 
-A one- or two-sentence description of what this project is, who it’s for, and why it matters.
+A short description of what the app does and who it’s for.
 
-- Role: Your role here
-- Tech: Technologies used
-- Links: [GitHub](#) · [Live demo](#)
+- Platform: iOS / web / other
+- Status: Shipped / active / on pause
+- Notes: Anything you want to highlight (e.g., type of users, domain)
 
-### Project Two
+### App Two
 
-Another project that shows a different dimension of your work.
+Another app you’d like to mention, again described briefly.
 
-### Project Three
+### More Apps
 
-A project that rounds out your portfolio or shows something experimental.
+You can add additional sections like this for other apps you want to mention by name, or replace them with a short narrative about the types of products you tend to build.
