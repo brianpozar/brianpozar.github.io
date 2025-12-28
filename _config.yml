@@ -1,0 +1,25 @@
+title: "Brian Pozar"
+description: "Personal site, projects, and writing by Brian Pozar."
+url: "https://www.pozar.net"
+baseurl: ""
+
+markdown: kramdown
+theme: null
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+# Simple navigation config to keep things DRY in templates
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"

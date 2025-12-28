@@ -1,0 +1,57 @@
+---
+layout: page
+title: Contact
+subtitle: A quick way to reach me without feeding the spambots.
+permalink: /contact/
+---
+
+<p>If you’d like to get in touch, use the form below. It will open your email client with a pre-filled message that you can review before sending.</p>
+
+<form class="contact-form" id="contact-form">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+  </div>
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <button class="btn primary" type="submit">Open Email</button>
+</form>
+
+<script>
+  (function () {
+    var form = document.getElementById('contact-form');
+    if (!form) return;
+
+    function encode(str) {
+      return encodeURIComponent(str).replace(/%20/g, '+');
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = document.getElementById('name').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var message = document.getElementById('message').value.trim();
+
+      // Assemble email address in JS to keep it out of the static HTML
+      var user = 'hello';
+      var domain = 'pozar.net';
+      var to = user + '@' + domain;
+
+      var subject = encode('Message from ' + name + ' via pozar.net');
+      var bodyLines = [];
+      bodyLines.push('Name: ' + name);
+      bodyLines.push('Email: ' + email);
+      bodyLines.push('');
+      bodyLines.push(message);
+      var body = encode(bodyLines.join('\n'));
+
+      window.location.href = 'mailto:' + to + '?subject=' + subject + '&body=' + body;
+    });
+  })();
+</script>

@@ -1,0 +1,18 @@
+---
+layout: page
+title: Blog
+subtitle: Occasional notes on building software and products.
+permalink: /blog/
+---
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <article>
+        <p class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      </article>
+    </li>
+  {% endfor %}
+</ul>
