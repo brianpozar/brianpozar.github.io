@@ -1,24 +1,18 @@
 ---
 layout: page
 title: Apps
-subtitle: A high-level look at the apps I’ve shipped, without going into in-progress work.
+subtitle: A high-level look at the apps I’ve built, without going deep into in-progress work.
 permalink: /apps/
 ---
 
-Use this page to list the apps or products you’re comfortable sharing at a glance. Keep descriptions high-level rather than deep dives into specific projects.
+Below are a few of the apps I’ve worked on. The goal here is to give a quick sense of what they do and who they’re for, not a full technical deep dive.
 
-### App One
+### TruerWords
 
-A short description of what the app does and who it’s for.
+TruerWords is an iOS app that helps you learn something new every day with carefully curated words, quotes, and ideas from 20+ years of notes—delivered through widgets and gentle, user‑controlled notifications.
 
-- Platform: iOS / web / other
-- Status: Shipped / active / on pause
-- Notes: Anything you want to highlight (e.g., type of users, domain)
+- **Platform:** iOS (with Lock Screen and Home Screen widgets; CarPlay planned)
+- **Focus:** Expanding vocabulary and knowledge in small, daily moments
+- **Status:** Active project
 
-### App Two
-
-Another app you’d like to mention, again described briefly.
-
-### More Apps
-
-You can add additional sections like this for other apps you want to mention by name, or replace them with a short narrative about the types of products you tend to build.
+[Learn more about TruerWords →]({{ "/apps/truer-words/" | relative_url }})
