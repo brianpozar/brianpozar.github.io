@@ -48,7 +48,7 @@ The `_includes/` directory contains reusable fragments for the `<head>`, site he
 - The `contact/` directory contains `index.html`, a `page` layout-backed contact form that:
   - Uses a simple HTML form with client-side JavaScript.
   - Assembles the destination email address and message body in JavaScript, then opens the user’s email client via a `mailto:` link (no backend).
-- `truer-words.md` and `truer-words-privacy-policy.md` are standalone pages for an app and its privacy policy.
+- `wellsaid.md` and `wellsaid-privacy-policy.md` are standalone pages for an app and its privacy policy.
 - Blog posts live under `_posts/` using standard Jekyll naming and the `post` layout.
 
 ### Assets and client-side behavior

@@ -1,21 +1,21 @@
 ---
 layout: page
-title: TruerWords Privacy Policy
-subtitle: How TruerWords handles your data.
-permalink: /apps/truer-words/privacy/
+title: WellSaid Privacy Policy
+subtitle: How WellSaid handles your data.
+permalink: /apps/wellsaid/privacy/
 ---
 
-# Privacy Policy for TruerWords
+# Privacy Policy for WellSaid
 
 **Last Updated: December 28, 2025**
 
 ## Introduction
 
-TruerWords ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we handle information in the TruerWords mobile application.
+WellSaid ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we handle information in the WellSaid mobile application.
 
 ## Information We Collect
 
-**TruerWords does not collect, store, or transmit any personal information to external servers.**
+**WellSaid does not collect, store, or transmit any personal information to external servers.**
 
 ### Data Stored Locally on Your Device
 
@@ -30,7 +30,7 @@ All of this data remains on your device and in your iCloud account (if iCloud sy
 ## Third-Party Services
 
 ### Google Sheets
-TruerWords fetches content (quotes, words, facts, etc.) from a publicly accessible Google Sheet. This connection:
+WellSaid fetches content (quotes, words, facts, etc.) from a publicly accessible Google Sheet. This connection:
 - Only downloads public data
 - Does not send any personal information
 - Does not track your usage
@@ -64,7 +64,7 @@ We do not share any data with third parties because we do not collect any data.
 
 ## Children's Privacy
 
-TruerWords does not knowingly collect any information from anyone. The app is suitable for users of all ages, though content categories can be filtered based on age-appropriateness.
+WellSaid does not knowingly collect any information from anyone. The app is suitable for users of all ages, though content categories can be filtered based on age-appropriateness.
 
 ## Your Rights
 
@@ -89,7 +89,7 @@ Website: https://www.pozar.net
 
 ## Summary
 
-**TruerWords is privacy-first:**
+**WellSaid is privacy-first:**
 - ✓ No personal data collection
 - ✓ No analytics or tracking
 - ✓ No ads
@@ -97,4 +97,4 @@ Website: https://www.pozar.net
 - ✓ All data stored locally on your device
 - ✓ Only fetches public content from Google Sheets
 
-Your privacy is important to us. TruerWords is designed to work entirely on your device, with your data under your control.
+Your privacy is important to us. WellSaid is designed to work entirely on your device, with your data under your control.
