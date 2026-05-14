@@ -9,10 +9,10 @@ Below are a few of the apps I’ve worked on. The goal here is to give a quick s
 
 ### WellSaid
 
-WellSaid is an iOS app that helps you learn something new every day with carefully curated words, quotes, and ideas from 20+ years of notes—delivered through widgets and gentle, user‑controlled notifications.
+WellSaid is an iOS app + Lock Screen/Home Screen widgets that surface short, high‑signal bits of content—quotes, words, facts, sayings, rules, motivation, and translations—on a schedule you control.
 
-- **Platform:** iOS (with Lock Screen and Home Screen widgets; CarPlay planned)
-- **Focus:** Expanding vocabulary and knowledge in small, daily moments
+- **Platform:** iOS (with Lock Screen and Home Screen widgets)
+- **Focus:** Expanding vocabulary and knowledge in small, daily moments using a structured Google Sheet you can customize
 - **Status:** Active project
 
 [Learn more about WellSaid →]({{ "/apps/wellsaid/" | relative_url }})
